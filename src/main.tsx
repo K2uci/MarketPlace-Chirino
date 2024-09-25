@@ -1,5 +1,5 @@
 import { render } from 'preact'
-import { App } from './app.tsx'
+import MainView from './views/MainView/MainView.tsx'
 import './index.css'
 
-render(<App />, document.getElementById('app')!)
+render(<MainView />, document.getElementById('app')!)
